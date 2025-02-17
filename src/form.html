@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 020</title>
+</head>
+<body>
+    <style>
+        form {
+            background-color: #e3f66b;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px black(0,0,0,0.2);
+            max-width: 600px;
+            max-height: 500px;
+            margin: left;
+        }
+    </style>
+    <body>
+        <h1>แบบฟอร์มลงทะเบียนศิษย์เก่า IT + IS </h1>
+        <form action="https://www.example.com/" method="get">
+            <label for="name"> ชื่อ: </label>
+            <input type="text" name="fullname"/>
+            <label for="username">สกุล: </label>
+            <input type="text" name="username"/>
+            <br>
+            <br>
+            <label for="StudentID">รหัสนักศึกษา: </label>
+            <input type="text" name="StudentID"/>
+            <br>
+            <br>
+            <label for="gender">เพศ: </label>
+            <input type="radio" name="gender">ชาย
+            <input type="radio" name="gender">หญิง
+            <br>
+            <br>
+            <label for="date">ปีการศึกษาเข้าศึกษา</label> 
+            <input type="date" name="gender">
+            <br>
+            <br>
+            <label for="address">ที่อยู่: </label>
+            <textarea name="address" cols="30" rows="1"></textarea>
+            <br>
+            <br>
+            <label for="Email">อีเมลล์: </label>
+            <input type="email" name="Email" />
+            <br>
+            <br>
+            <label for="Tel">เบอร์โทรติดต่อ: </label>
+            <input type="text" name="Tel" />
+            <br>
+            <br>
+            <label for="CorseName">ชื่อหลักสูตร: </label> 
+            <select name="CorseName"> 
+            <Option value="">IT</Option> 
+            <Option value="">IS</Option> 
+            </select>
+            <br>
+            <br>
+            <label for="Occ">อาชีพปัจจุบัน: </label>
+            <input type="text" name="Occ" />
+            <br>
+            <br>
+            <label for="addresswork">สถานที่ทำงาน: </label>
+            <textarea name="address" cols="30" rows="1"></textarea>
+            <br>
+            <br>
+            <label for="OccType">ตำแหน่งของงาน: </label> 
+            <select name="OccType"> 
+            <Option value="">Web Developer</Option>
+            <Option value="">SA</Option>
+            <Option value="">Graphic Design</Option> 
+            <Option value="">Digital Marketing</Option> 
+            </select>
+            <br>
+            <br>
+            <label for="Image">รูปถ่ายบุคคล: </label>
+            <input type="file" name="Image" />
+            <br>
+            <br>
+            <input type="submit" value="ตกลง">
+            <input type="reset" value="ยกเลิก">
+        </form>
+            <br>
+     <a href="../index.html">Back to Exercise</a>
+</body>
+</html>
